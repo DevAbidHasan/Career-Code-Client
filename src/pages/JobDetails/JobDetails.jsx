@@ -10,7 +10,7 @@ const JobDetails = () => {
             <h2 className="md:text-4xl text-2xl text-blue-600 font-bold">{job.title}</h2>
             <h2 className="text-xl">{job.company}</h2>
             <div className='flex justify-end'>
-            <Link to={`/jobs/${job._id}`} className='btn hover:btn-secondary btn-primary'>Apply Now</Link>
+            <Link to={`/jobApply/${job._id}`} className='btn hover:btn-secondary btn-primary'>Apply Now</Link>
             </div>
         </div>
     );
